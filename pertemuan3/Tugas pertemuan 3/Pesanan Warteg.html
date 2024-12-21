@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pesanan Barang</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: hotpink;">
+
+    <div style="width: 700px; margin: 0 auto; background-color: white; padding: 20px; border: 1px solid #ccc;">
+        <header style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <button style="padding: 10px;">Home</button>
+                <button style="padding: 10px;">Generate Link</button>
+                <button style="padding: 10px;">Transaction History</button>
+                <button style="padding: 10px;">Policy</button>
+                <button style="padding: 10px;">Logout</button>
+            </div>
+            <input type="text" placeholder="Search..." style="padding: 8px;">
+        </header>
+
+        <hr>
+
+        <form action="warung teknologi.html" style="display: flex; gap: 20px;">
+            <!-- Left section (Picture upload) -->
+            <div style="flex: 1;">
+                <div style="width: 200px; height: 200px; background-color: #ccc; display: flex; justify-content: center; align-items: center;">
+                    <span>Image Preview</span>
+                </div>
+                <button style="display: block; margin-top: 10px; padding: 10px;">Upload Picture</button>
+            </div>
+
+            <!-- Right section (Form details) -->
+            <div style="flex: 2;">
+                <label for="title">Title Here:</label>
+                <input type="text" id="title" value="ViVo Y75 5G" style="width: 100%; padding: 8px; margin-bottom: 10px;">
+
+                <label for="description">Description:</label>
+                <textarea id="description" rows="5" style="width: 100%; padding:
+                8px; margin-bottom: 10px;">Year:2022&#10;Model:V2142&#10;Condition:Normal/new</textarea>
+
+                <label for="account-number">Account Number:</label>
+                <input type="text" id="account-number" value="123-456-789-0" style="width: 100%; padding: 8px; margin-bottom: 10px;">
+
+                <label for="bank">Bank:</label>
+                <select id="bank" style="width: 100%; padding: 8px; margin-bottom: 10px;">
+                    <option>BCA</option>
+                    <!-- Add more banks as needed -->
+                </select>
+
+                <label for="account-holder">Account Holder:</label>
+                <input type="text" id="account-holder" value="Name Here" style="width: 100%; padding: 8px; margin-bottom: 10px;">
+
+                <label for="transaction">Transaction:</label>
+                <input type="number" id="transaction" value="1" style="width: 100%; padding: 8px; margin-bottom: 10px;">
+                <small>* If the transaction is for 3 persons, choose 3 from the drop-down list.</small>
+
+                <div style="margin-top: 10px;">
+                    <input type="checkbox" id="send-mobile">
+                    <label for="send-mobile">Send to Mobile Phone</label><br>
+                    <input type="checkbox" id="send-email">
+                    <label for="send-email">Send to Email</label>
+                </div>
+
+                <label for="mobile">Send to Mobile Phone:</label>
+                <input type="text" id="mobile" value="1234567890, 1234567891" style="width: 100%; padding: 8px; margin-bottom: 10px;">
+
+                <label for="email">Send to Email:</label>
+                <input type="text" id="email" value="mamasganteng@gmail.com" style="width: 100%; padding: 8px; margin-bottom: 20px;">
+                
+                <button style="padding: 10px; background-color: green; color: white; border: none;">Generate Nabr Link</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

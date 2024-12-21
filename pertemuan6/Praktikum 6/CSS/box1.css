@@ -1,0 +1,23 @@
+/* styling box */
+body {
+  margin-left: 50px;
+}
+.box {
+  width: 250px; /* lebar setiap box */
+  height: 400px; /* panjang setiap */
+  border: 1px solid black;
+  float: left;
+  margin: 20px; /* memberi jarak dari setiap box */
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green{
+  background-color: greenyellow;
+}
+.blue{
+  background-color: blue;
+}

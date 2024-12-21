@@ -1,0 +1,12 @@
+body {
+  background-color: hotpink;
+  display: flex;
+}
+.foto{
+  margin: 20px;
+  border: 1px solid black;
+}
+.foto img{
+  width: 200px;
+  height: 300px;
+}

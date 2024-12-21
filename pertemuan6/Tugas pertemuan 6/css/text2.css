@@ -1,0 +1,83 @@
+body{
+  background-color: hotpink;
+}
+
+.container{
+  width: 700px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid silver;
+}
+
+.bilah{
+  border: 1px solid black;
+}
+
+.bar{
+    background-color: silver;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    
+    & input[type="text"] {
+    width: 85%;
+    padding: 5px;
+    border: none;
+    }
+}
+
+.bidang{
+    display: flex;
+}
+
+.bidang .box1{
+    background-color: yellow;
+    width: 192px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.bidang .box2{
+    background-color: red;
+    width: 1000px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.bidang1{
+    display: flex;
+}
+
+.bidang1 .blok1{
+    background-color: lightgreen;
+    width: 200px;
+    height: 500px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.bidang1 .blok2{
+    background-color: silver;
+    width: 800px;
+    height: 500px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.bidang1 .blok3{
+    background-color: skyblue;
+    width: 200px;
+    height: 500px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.bidang2{
+    background-color: blue;
+    width: 677px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid black;
+}
